@@ -58,7 +58,7 @@ draw(){
         ctx.lineTo(control.x, control.y);
         ctx.stroke();
         ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-        ctx.fill()
+        ctx.fill();
         ctx.closePath();
     }
     ctx.fillStyle = 'red';
