@@ -20,9 +20,9 @@ I drew one picture of each page, then built it.
 
 Page | Link to image of wireframe
 ------------ | -------------
-index.html | [index](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/index.png)
-moreinfo.html | [moreinfo](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/submit.png)
-gallery.html | [gallery](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/training_pack.png)
+index.html | [index](https://github.com/isitaslinky/Interactivefrontend/blob/master/images/homepage.jpg)
+moreinfo.html | [moreinfo](https://github.com/isitaslinky/Interactivefrontend/blob/master/images/moreinfo.jpg)
+gallery.html | [gallery](https://github.com/isitaslinky/Interactivefrontend/blob/master/images/gallery.jpg)
 
 ## Features:
 1. Landing page
@@ -76,7 +76,7 @@ gallery.html | [gallery](https://github.com/isitaslinky/rl-training-site/blob/ma
     - moreinfo = pass
     - gallery = pass
 6. Ran an online [responsiveness tester](http://ami.responsivedesign.is/#).
-    - Result: [Amiresponsive?](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/amiresponsive.png)
+    - Result: yes(is it perfect, no.)
 
 ## What I would like to work on in the future:
 - Locally stored day/night mode for the site to remember across pages. 
@@ -85,9 +85,10 @@ gallery.html | [gallery](https://github.com/isitaslinky/rl-training-site/blob/ma
 
 
 ## Bugs and their resolution:
-1. 	bootstrap spacing and padding caused problems when scaling responsively.
+1. 	Bootstrap initial spacing and padding caused problems when scaling responsively.
 2.  Day/night mode caused lots of problems, mainly not targeting elements properly.
-
+3.  Had a div inside the label, the HTML validator did not like that. Troubleshooted and fixed [stackoverflow solution](https://stackoverflow.com/questions/4461942/html-tags-inside-label).
+4.  Various other bugs I forgot to write down before making changes. 
 
 ## Deployment:
 Ensured all tools were installed, this includes:
@@ -101,6 +102,8 @@ Ensured all tools were installed, this includes:
 
 ## Credits:
 Content Ive used from my search history, and not in any particular order, and I probably missed some links.
+Honestly, I am so far behind with my study because of work that I dont fully understand why the toggler works, but I am relieved that it does.
+Thank you youtube and google.
  
 - [Fixed top Navbar:](https://www.w3schools.com/howto/howto_css_fixed_menu.asp)
     - Part of the code used in the .navbar class, but bootstrap is doing most of the work externally. 
