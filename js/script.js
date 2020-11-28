@@ -1,5 +1,5 @@
-const chk = document.getElementById('status');
+const status = document.getElementById('status');
 
-chk.addEventListener('change', () => {
+status.addEventListener('change', () => {
 	document.body.classList.toggle('night');
 });
