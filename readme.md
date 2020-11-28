@@ -69,12 +69,12 @@ gallery.html | [gallery](https://github.com/isitaslinky/rl-training-site/blob/ma
 3. Tested using responsive design in the browser on most used breakpoints. 
 4. Had friends and family test the website on their devices and received design feedback.
 6. Ran a [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
-    - Result: [CSS](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/css_w3_pass.png)
+    - Result: Pass
 7. Ran a [HTML Validator](https://validator.w3.org/#validate_by_input).
     - Results:
-    - [Index](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/html_w3_pass_index.png)
-    - [Training Pack](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/html_w3_pass_training_pack.png)
-    - [Submit](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/html_w3_pass_submit.png)
+    - index = pass
+    - moreinfo = pass
+    - gallery = pass
 6. Ran an online [responsiveness tester](http://ami.responsivedesign.is/#).
     - Result: [Amiresponsive?](https://github.com/isitaslinky/rl-training-site/blob/master/assets/images/amiresponsive.png)
 
@@ -100,7 +100,7 @@ Ensured all tools were installed, this includes:
 
 
 ## Credits:
-Content Ive used from my search history, and not in any particular order.
+Content Ive used from my search history, and not in any particular order, and I probably missed some links.
  
 - [Fixed top Navbar:](https://www.w3schools.com/howto/howto_css_fixed_menu.asp)
     - Part of the code used in the .navbar class, but bootstrap is doing most of the work externally. 
@@ -124,19 +124,9 @@ Content Ive used from my search history, and not in any particular order.
     - Used to investigate how to figure out dark mode javascript.
 - [Dark mode tutorial youtube](https://www.youtube.com/watch?v=PD89iMr50Mw)
     - Used to investigate how to figure out dark mode javascript.
+- [jQuery dark mode guide](https://www.developerdrive.com/css-dark-mode/)
+    - Used to figure out that this is what i didn't want to work with.
+
 ## Media:
-Background (4000x2000px)
-[Direct Link](https://www.jakpost.travel/wimages/large/238-2389378_rocket-league-draco-grey.jpg)
-
-Various content creators on youtube:
-- [Gpepper](https://www.youtube.com/channel/UC-d1NAX6MeEYgwMkd6TMEyg)
-- [FusioNine](https://www.youtube.com/channel/UCOT7Vqfqb2oFl_mMBhDQRVA)
-- [Snap10a](https://www.youtube.com/channel/UCUCnQu9TR7qEqa52PF7Djaw)
-- [SubParButInHD](https://www.youtube.com/channel/UCOw0zA-Gf5gpQ6K446mR0wA)
-
-[Bakkesmod (A Rocket League plugin)](https://www.bakkesmod.com/)
-
-Sites for inspiration:
-- [Rocket League (psyonix)](https://www.rocketleague.com/)
-- [Rocket Garage](https://rocket-league.com/training) - One training site I used to look at, rarely gets updated.
-- [Gamersrdy](https://www.gamersrdy.com/rocket-league-training-packs/) - Another training site I used to look at, but also rarely gets updated.
+Royalty free images found here: 
+[Direct Link](https://unsplash.com/s/photos/birch-tree)
