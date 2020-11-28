@@ -68,15 +68,20 @@ gallery.html | [gallery](https://github.com/isitaslinky/Interactivefrontend/blob
 2. Tested on mobile to ensure the links, layout and scaling works as intended.
 3. Tested using responsive design in the browser on most used breakpoints. 
 4. Had friends and family test the website on their devices and received design feedback.
-6. Ran a [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
+6. Ran [CSS validator](https://jigsaw.w3.org/css-validator/#validate_by_input).
     - Result: Pass
-7. Ran a [HTML Validator](https://validator.w3.org/#validate_by_input).
+7. Ran [HTML Validator](https://validator.w3.org/#validate_by_input).
     - Results:
     - index = pass
     - moreinfo = pass
     - gallery = pass
-6. Ran an online [responsiveness tester](http://ami.responsivedesign.is/#).
+6. Ran [responsiveness tester](http://ami.responsivedesign.is/#).
     - Result: yes(is it perfect, no.)
+7. Ran [JSHint](https://jshint.com/).
+    - Three warnings, to be changed later.
+    	- 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+        - 12 Redefinition of 'status'.
+        - 14 arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
 
 ## What I would like to work on in the future:
 - Locally stored day/night mode for the site to remember across pages. 
